@@ -22,14 +22,14 @@ class TestCommand(Command):
 
 setup(
     name='parse_rest',
-    version='0.2.20141004',
+    version='0.2.20150315',
     description='A client library for Parse.com\'.s REST API',
-    url='https://github.com/dgrtwo/ParsePy',
+    url='https://github.com/treeguard/ParsePy',
     packages=['parse_rest'],
     package_data={"parse_rest": [os.path.join("cloudcode", "*", "*")]},
     install_requires=['six'],
-    maintainer='David Robinson',
-    maintainer_email='dgrtwo@princeton.edu',
+    maintainer='treeguard',
+    maintainer_email='',
     cmdclass={'test': TestCommand},
     classifiers=[
         'Development Status :: 4 - Beta',
