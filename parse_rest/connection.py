@@ -93,7 +93,7 @@ class ParseBase(object):
             url += '?%s' % urlencode(kw)
             data = None
         else:
-            data = data.encode('utf-8')
+            data = data
 
         headers = {
             'Content-type': 'application/json',
